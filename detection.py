@@ -69,13 +69,13 @@ def main():
                     if time2-time1>5:
                        sss=time.strftime('%c', time.localtime(time.time()))
                        data1= 'car1 knife {} {} '.format(position,sss)
-                       account_sid = 'AC830601052a526b757f23cac741e8becb'
+                       account_sid = 'sid'
                        auth_token = 'token '
                        client = Client(account_sid, auth_token)
                        message = client.messages.create(
-                         from_='+12563685788',
+                         from_='',
                          body=data1.encode(),
-                         to='+821031198106'
+                         to=''
                        )
                        print("data")
                        time1=time.time()
