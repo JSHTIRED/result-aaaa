@@ -1,5 +1,5 @@
 # result-aaaa
-2023한강 aiot대회 본선작(통신 담당)
+2023한강 aiot대회 본선작(통신 담당)  
 RC car
 ```py
 pip install serial
